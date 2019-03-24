@@ -29,7 +29,7 @@ $third_planet = 'earth';  //task 5 a
 $next_vizitor = 'Petya';  //task 5 b
         echo '<br/>';
 //$a = 2; //task 6
-//$x = 1 + (a *= 2); //х не будет равен нечему, условие в скобках не выполнится.
+//$x = 1 + (a *= 2); //х не будет равен нечему, выражение в скобках не выполнится.
 $target = 55;   //task 7 a
     if ($target == 55 ) {
         echo "corectly"; //variable equals $target
@@ -75,7 +75,7 @@ $num = (int) $string;
         echo '<br/>';
 
 $language = 'en_GB'; //task 8
-$mounts = NULL;
+$mounts = 0;
 
 $moEng = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul','aug', 'sep', 'oct', 'nov', 'dec' ];
 $moRus = ['янв','фев','мар','апр','май','июн','июл','ауг','сен','окт','ноя','дек'];
@@ -89,3 +89,23 @@ $moRus = ['янв','фев','мар','апр','май','июн','июл','ауг
 print_r($mounts);
 
         echo '<br/>';
+
+$language = 'ru_RU';
+$mounts = 0;
+
+$moEng = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul','aug', 'sep', 'oct', 'nov', 'dec' ];
+$moRus = ['янв','фев','мар','апр','май','июн','июл','ауг','сен','окт','ноя','дек'];
+
+switch ($language) {
+    case "en_GB":
+        $mounts = $moEng;
+        break;
+    case "ru_RU":
+        $mounts = $moRus;
+        break;
+}
+print_r($mounts);
+            echo '<br/>';
+
+
+

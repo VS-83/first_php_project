@@ -26,6 +26,4 @@
 //echo $var_string[2];
 //echo $day_we[0];
 $next = 0;
-if ($next == 0){
-    echo "this construction is PHP";
-}
+echo "This is PHP";

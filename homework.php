@@ -29,7 +29,7 @@ $third_planet = 'earth';  //task 5 a
 $next_vizitor = 'Petya';  //task 5 b
         echo '<br/>';
 //$a = 2; //task 6
-//$x = 1 + (a *= 2); //х не будет равен нечему, условие в скобках не выполнится.
+//$x = 1 + (a *= 2); //х не будет равен нечему, выражение в скобках не выполнится.
 $target = 55;   //task 7 a
     if ($target == 55 ) {
         echo "corectly"; //variable equals $target

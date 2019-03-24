@@ -75,7 +75,7 @@ $num = (int) $string;
         echo '<br/>';
 
 $language = 'en_GB'; //task 8
-$mounts = NULL;
+$mounts = 0;
 
 $moEng = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul','aug', 'sep', 'oct', 'nov', 'dec' ];
 $moRus = ['янв','фев','мар','апр','май','июн','июл','ауг','сен','окт','ноя','дек'];
@@ -89,3 +89,23 @@ $moRus = ['янв','фев','мар','апр','май','июн','июл','ауг
 print_r($mounts);
 
         echo '<br/>';
+
+$language = 'ru_RU';
+$mounts = 0;
+
+$moEng = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul','aug', 'sep', 'oct', 'nov', 'dec' ];
+$moRus = ['янв','фев','мар','апр','май','июн','июл','ауг','сен','окт','ноя','дек'];
+
+switch ($language) {
+    case "en_GB":
+        $mounts = $moEng;
+        break;
+    case "ru_RU":
+        $mounts = $moRus;
+        break;
+}
+print_r($mounts);
+            echo '<br/>';
+
+
+
